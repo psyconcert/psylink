@@ -1,0 +1,82 @@
+# Simple workflow for deploying static content to GitHub Pages
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Linktree</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            background: #1e1e1e;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            padding: 20px;
+        }
+
+        .profile {
+            margin-bottom: 20px;
+        }
+
+        .profile img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            border: 3px solid #ffffff;
+        }
+
+        .profile h1 {
+            font-size: 22px;
+            margin: 0;
+            color: #ffffff;
+        }
+
+        .links a {
+            display: block;
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #333333;
+            padding: 12px 20px;
+            border-radius: 30px;
+            margin: 10px 0;
+            font-size: 16px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .links a:hover {
+            background-color: #0073e6;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="https://images.pexels.com/photos/18760824/pexels-photo-18760824/free-photo-of-fantasma-em-uma-floresta-escura.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt=".">
+            <h1>psy</h1>
+        </div>
+        <div class="links">
+            <a href="https://www.instagram.com/incrluvh?igsh=MWRyYmdleTVsZXlobQ%3D%3D&utm_source=qr"
+                target="_blank">Instagram</a>
+            <a href="https://www.roblox.com/share?code=c61ac32126c5244799d535fcb71709a9&type=Profile&source=ProfileShare&stamp=1735874777116"
+                target="_blank">Roblox</a>
+            <a href="https://www.tiktok.com/@xhtmy1?_t=ZM-8skNtQrR51y&_r=1" target="_blank">TikTok</a>
+
+        </div>
+    </div>
+</body>
+
+</html>
